@@ -17,3 +17,5 @@ print('Tere', name)
 name = input('Mis Su nimi on')
 print('Tere', name)
 
+
+
