@@ -1,0 +1,8 @@
+bed_length = int(input("Mis on ühe peenra pikkus cm? "))
+bed_count = int(input("Mitu peenart on? "))
+peas_in_packet = int(input("Kui palju herneid on pakis? "))
+peas_per_bed = int(bed_length / 5) * 2
+total_peas = peas_per_bed * bed_count
+packet_count = round(total_peas / peas_in_packet, 2)
+print(f"\n{bed_count}-le {bed_length} cm pikkusele peenrale kulub {total_peas} hernest.")
+print(f"Selle jaoks on vaja {packet_count} pakki herneid.")
